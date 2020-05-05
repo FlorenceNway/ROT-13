@@ -2,7 +2,7 @@ const {
 	fireEvent,
 } = require("@testing-library/dom/dist/@testing-library/dom.umd.js");
 
-// Exercise #
+
 describe("ROT13", () => {
 	const inputEl = document.querySelector("textarea");
 	const encryptBtnEl = document.querySelector("#encrypt");
