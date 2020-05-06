@@ -2,9 +2,12 @@
     margin: 0 auto;
 }
 
+.wrapper {
+    margin-left: 10%;
+}
+
 textarea {
     border: 1px solid black;
-    margin: 20px;
 }
 
 h1 {
@@ -16,6 +19,9 @@ button {
     background: #9441e1;
     margin: 5px;
     color: white;
+}
 
-
+.result {
+    color: red;
+    font-size: 1.1em;
 }
