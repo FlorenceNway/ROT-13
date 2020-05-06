@@ -1,22 +1,21 @@
 .input_container {
-    width: 50%;
     margin: 0 auto;
 }
 
 textarea {
     border: 1px solid black;
-    margin: 10px;
+    margin: 20px;
 }
 
 h1 {
-    margin: 0 auto;
-    display: inline inline-block;
-}
+    text-align: center;
+} 
 
 button {
     padding:  10px;
     background: #9441e1;
     margin: 5px;
+    color: white;
 
 
 }
