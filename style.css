@@ -22,8 +22,19 @@ button {
     color: white;
     border-radius: 5px;
 }
+button:hover {
+    background-color: green;
+    cursor: pointer;
+}
+button:disabled {
+    opacity: 0.5;
+}
 
 .result {
     color: red;
     font-size: 1.1em;
+}
+.result-wrapper {
+    text-align: center;
+    font-size: 1.2rem;
 }
