@@ -5,23 +5,23 @@ const resultEl = document.querySelector(".result");
 
 const alphabet = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
 
-if(!text.value) {
-    decrypt.setAttribute('disabled','')
-}
+
+text.addEventListener('keyup', (e) => {
+    if(e.target.value) {
+        encrypt.removeAttribute('disabled','')
+    }
+})
+
 
 encrypt.addEventListener('click', () => {
-    encrypt.style.backgroundColor='green'
     decrypt.removeAttribute('disabled','')
     rot13()
-    decrypt.style.backgroundColor='#9441e1'
     encrypt.setAttribute('disabled','')
 })
 
 decrypt.addEventListener('click', () => {
-    encrypt.style.backgroundColor='#9441e1'
     encrypt.removeAttribute('disabled','')
     rot13()
-    decrypt.style.backgroundColor='green'
     decrypt.setAttribute('disabled','')
 })
 
